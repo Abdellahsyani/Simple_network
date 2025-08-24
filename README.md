@@ -165,13 +165,8 @@ The OSI model is a conceptual framework that describes how data moves across a n
 
 
 How it relates to our components:
-
-Router works at Layer 3 (Network).
-
-Switch works at Layer 2 (Data Link).
-
-Firewall operates at multiple layers (mainly 3, 4, and sometimes 7).
-
-DNS is an Application Layer (Layer 7) service.
-
-DHCP also works at the Application Layer (Layer 7).
+    - Router works at Layer 3 (Network).
+    - Switch works at Layer 2 (Data Link).
+    - Firewall operates at multiple layers (mainly 3, 4, and sometimes 7).
+    - DNS is an Application Layer (Layer 7) service.
+    - DHCP also works at the Application Layer (Layer 7).
