@@ -18,7 +18,7 @@ An IP address is a unique number assigned to each device on a network to identif
 
 - IPv4 addresses are limited and cannot provide unique addresses for every device in the world. IPv6 offers a much larger address space.
 
-    - #### Private vs. Public IP
+- Private vs. Public IP
 
     - Public IP: The address assigned to your network by your Internet Service Provider (ISP). It is globally unique and used on the internet.
 
@@ -40,9 +40,7 @@ If every device required a unique public IP, we would run out of IPv4 addresses 
 ## ✅ What is a Subnet Mask?
 
 A subnet mask is a 32-bit number that splits an IP address into two parts:
-
     - Network part: Identifies the network.
-
     - Host part: Identifies devices within that network.
 
 - Example:
@@ -52,9 +50,7 @@ Binary:      11111111.11111111.11111111.10000000
 ```
 
  Here:
-
     - 1s represent the network bits.
-
     - 0s represent the host bits.
 
 - #### How to calculate the number of IP addresses?
@@ -157,7 +153,7 @@ A firewall is a security system that monitors and filters incoming and outgoing 
 
 The OSI model is a conceptual framework that describes how data moves across a network in 7 layers. Each layer has its own role:
 
-----
+```
 Layer |	Name	        | Function
 7	  | Application	    | Interfaces with user applications (e.g., web browsers, email)
 6	  | Presentation	| Translates data formats (encryption, compression)
@@ -166,5 +162,4 @@ Layer |	Name	        | Function
 3	  | Network	Handles | logical addressing (IP addresses) and routing
 2	  | Data Link	    | Manages MAC addresses and frames within a LAN
 1	  | Physical	    | Deals with cables, signals, and hardware transmission
-
-----
+```
