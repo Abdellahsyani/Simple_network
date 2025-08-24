@@ -153,13 +153,25 @@ A firewall is a security system that monitors and filters incoming and outgoing 
 
 The OSI model is a conceptual framework that describes how data moves across a network in 7 layers. Each layer has its own role:
 
-```
-Layer |	Name	        | Function
-7	  | Application	    | Interfaces with user applications (e.g., web browsers, email)
-6	  | Presentation	| Translates data formats (encryption, compression)
-5	  | Session	Manages | sessions between devices
-4	  | Transport	    | Ensures reliable data delivery (TCP/UDP)
-3	  | Network	Handles | logical addressing (IP addresses) and routing
-2	  | Data Link	    | Manages MAC addresses and frames within a LAN
-1	  | Physical	    | Deals with cables, signals, and hardware transmission
-```
+| Layer | Name         | Function                                              |
+|-------|-------------|-------------------------------------------------------|
+| 7     | **Application** | Interfaces with user applications (e.g., web browsers, email) |
+| 6     | **Presentation**| Translates data formats (encryption, compression)  |
+| 5     | **Session**      | Manages sessions between devices                   |
+| 4     | **Transport**    | Ensures reliable data delivery (TCP/UDP)          |
+| 3     | **Network**      | Handles logical addressing (IP addresses) and routing |
+| 2     | **Data Link**    | Manages MAC addresses and frames within a LAN      |
+| 1     | **Physical**     | Deals with cables, signals, and hardware transmission |
+
+
+How it relates to our components:
+
+Router works at Layer 3 (Network).
+
+Switch works at Layer 2 (Data Link).
+
+Firewall operates at multiple layers (mainly 3, 4, and sometimes 7).
+
+DNS is an Application Layer (Layer 7) service.
+
+DHCP also works at the Application Layer (Layer 7).
