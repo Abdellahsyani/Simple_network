@@ -172,4 +172,4 @@ The OSI model is a conceptual framework that describes how data moves across a n
     - DHCP also works at the Application Layer (Layer 7).
 
 ## Image
-[An example of the work fllow](/home/abdellah/Pictures/Screenshots/image.png)
+[An example of the work fllow](/home/abdellah/Pictures/Screenshots/image.jpg)
